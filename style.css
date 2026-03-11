@@ -319,6 +319,12 @@ a {
   letter-spacing: -0.06em;
   line-height: var(--heading-line-height);
 }
+.banner-title {
+  hyphens: none;
+  word-break: keep-all;
+  white-space: nowrap;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
 
 /* mobile menu */
 /*----- Header Menu
@@ -668,4 +674,5 @@ width: 95%;
   .bg-text:after {
     right: 0;
   }
+
 }
